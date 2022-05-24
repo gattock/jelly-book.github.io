@@ -10,7 +10,7 @@ $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u \\ v \end{bmat
 
 $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u & v \end{bmatrix} $$
 
-where $$ (e_1 e_2) $$ is an ortho-normal (ON) basis for the plane $\mathbb{R}^2$ . \\
+where $$ (e_1 e_2) $$ is an ortho-normal (ON) basis for the plane $\mathbb{R}^2$ . 
 
 --FIRST VIDEO FLOW MOTION--
 
