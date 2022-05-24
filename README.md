@@ -1,6 +1,7 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 
+\newcommand{\dv}[1][2]{  \frac{\textrm{d}#1}{\textrm{d}#1}  }
 
 https://gattock.github.io/jelly-book.github.io/
 ## Chapter1
@@ -14,7 +15,7 @@ where $$ (e_1 e_2) $$ is an ortho-normal (ON) basis for the plane $\mathbb{R}^2$
 
 --FIRST VIDEO FLOW MOTION--
 
-Now we consider an arbitrary domain $ \Omega $ --VIDEO 2: arbitrary omegas-- \\
+Now we consider an arbitrary domain $ \Omega $ --VIDEO 2: arbitrary omegas-- 
 
 Keeping the case of the fluid flow, we already know by conservation law that the total amount of mass must be conserved if nothing is added or removed inside the domain: 
 
