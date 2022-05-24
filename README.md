@@ -8,6 +8,8 @@ $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u \\ v \end{bmat
 
 $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u & v \end{bmatrix} $$
 
+## Embedding videos
+[!Youtube Tutorial Link](../images/pyinstaller_tutorial.jpg)](https://www.youtube.com/watch?v=hHbWF1Bvgf4)
 
 
 
