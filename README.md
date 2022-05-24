@@ -20,7 +20,14 @@ Keeping the case of the fluid flow, we already know by conservation law that the
 
 $$ \dv [ \int \rho (x,y) dx dy]=0   $$
 
+## Embedding LateX
 
+```{=latex}
+\begin{tabular}{ll}
+A & B \\
+A & B \\
+\end{tabular}
+```
 
 ## Embedding videos
 
