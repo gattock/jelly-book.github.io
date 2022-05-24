@@ -10,11 +10,11 @@ $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u \\ v \end{bmat
 
 $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u & v \end{bmatrix} $$
 
-where $$ (e_1 e_2) $$ is an ortho-normal (ON) basis for the plane $$\mathbb{R}^2$$ . \\
+where $$ (e_1 e_2) $$ is an ortho-normal (ON) basis for the plane $\mathbb{R}^2$ . \\
 
 --FIRST VIDEO FLOW MOTION--
 
-Now we consider an arbitrary domain $$ \Omega $$ --VIDEO 2: arbitrary omegas-- \\
+Now we consider an arbitrary domain $ \Omega $ --VIDEO 2: arbitrary omegas-- \\
 
 Keeping the case of the fluid flow, we already know by conservation law that the total amount of mass must be conserved if nothing is added or removed inside the domain: 
 
