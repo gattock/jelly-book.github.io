@@ -5,6 +5,9 @@
 Links to chapter1: 
 https://gattock.github.io/jelly-book.github.io/chapter1/
 https://jelly-book.github.io/2022/05/24/chapter1.html
+https://gattock.github.io/jelly-book.github.io/2022/05/24/chapter1.html
+https://gattock.github.io/jelly-book.github.io/2022/05/24/VectorFields.html
+
 
 $e^{i \pi} = -1$
 
