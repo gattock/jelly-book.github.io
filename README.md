@@ -18,27 +18,13 @@ Now we consider an arbitrary domain $$ \Omega $$ --VIDEO 2: arbitrary omegas-- \
 
 Keeping the case of the fluid flow, we already know by conservation law that the total amount of mass must be conserved if nothing is added or removed inside the domain: 
 
-$$ \dv [ \int \rho (x,y) dx dy]=0   $$
 
-## Embedding LateX
-
-```{=latex}
-\begin{tabular}{ll}
-A & B \\
-A & B \\
-\end{tabular}
-```
-
-## Embedding videos
-
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hHbWF1Bvgf4" title="RandomTitle" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; ecnrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-</p>
+$$ \dv{}{t}[ \int \rho (x,y) dx dy]=0   $$
 
 
-OR ALSO  
+
+
+## Embedding videos 
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=hjMx8EuyZJ8" title="RandomTitle" frameborder="0"
@@ -79,6 +65,14 @@ $$\mathbf{u} = 5\vec u+7\hat y$$
 
 
 
+## Embedding LateX
+
+```{=latex}
+\begin{tabular}{ll}
+A & B \\
+A & B \\
+\end{tabular}
+```
 
 
 
