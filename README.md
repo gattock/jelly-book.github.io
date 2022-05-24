@@ -9,9 +9,14 @@ $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u \\ v \end{bmat
 $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u & v \end{bmatrix} $$
 
 ## Embedding videos
+
 [!Youtube Tutorial Link](../images/pyinstaller_tutorial.jpg)](https://www.youtube.com/watch?v=hHbWF1Bvgf4)
 
-
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hHbWF1Bvgf4" title="RandomTitle" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; ecnrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</p>
 
 ## MY STUFF
 
