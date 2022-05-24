@@ -29,28 +29,6 @@ $ \dv{}{t}[ \int \rho (x,y) dx dy]=0   $
 
 scrivi questo
 
-## Prova newcommand
-
----
-title: "Untitled"
-author: "An Author"
-date: "January 15, 2017"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-\newcommand{\var}{\mathrm{Var}}
-
-## R Markdown
-
-This is an R Markdown document. $\var+2$ Markdown is a simple formatting syntax for 
-authoring HTML, PDF, and MS Word documents. For more details on using R Markdown 
-see <http://rmarkdown.rstudio.com>.
-
-
 ## Embedding videos 
 
 <p align="center">
