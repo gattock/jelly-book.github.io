@@ -2,6 +2,8 @@
 
 
 ## Chapter1
+We consider a vector field, let´s say a bidimensional velocity field of a continuum fluid. We can express in in different ways: we can write
+
 
 
 
@@ -14,14 +16,26 @@ https://jelly-book.github.io/2022/05/24/chapter1.html
 https://gattock.github.io/jelly-book.github.io/2022/05/24/chapter1.html
 https://gattock.github.io/jelly-book.github.io/2022/05/24/VectorFields.html
 
-
+Esempio 1
 $e^{i \pi} = -1$
 
+Esempio2
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
+Esempio3
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
+Esempio4
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
+
+Esempio5
+$$\begin{bmatrix}1 & x_{1}\\
+1 & x_{2}\\
+1 & x_{3}
+\end{bmatrix}$$
+
+Esempio6
+$$\mathbf{u} = 5\vec u+7\hat y$$
 
 
 
