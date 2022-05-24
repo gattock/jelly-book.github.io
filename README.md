@@ -2,6 +2,7 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 
 
+https://gattock.github.io/jelly-book.github.io/
 ## Chapter1
 We consider a vector field, let´s say a bidimensional velocity field of a continuum fluid. We can express in in different notations: we can write \\
 
