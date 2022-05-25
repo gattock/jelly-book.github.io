@@ -122,6 +122,9 @@ $$  \dv{t} \rho(x,y) = f(x,y) -\nabla \cdot ( \rho \vec u(x,y) ) $$
 In case of incompressible fluid, we know that $$ \rho=\textrm{cost.}  $$
 This leads directly to
 $$  \nabla \cdot ( \rho \vec u(x,y) )= f(x,y) $$
+that intuitively means that the divergence of the velocity field is given only by how much fluid is "generated-absorbed" in that point.
+
+--VIDEO WITH CHEMICALS REACTIONS AND COMPOUNDS DENSITIES VARIATIONS--
 
 
 
