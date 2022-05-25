@@ -2,32 +2,52 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 
 \newcommand{\dv}[1][2]{  \frac{\textrm{d}#1}{\textrm{d}#1}  }
+\newcommand{\de}{\\textrm{d}}
 
 https://gattock.github.io/jelly-book.github.io/
-## Chapter1
+## Vector fields general info
 We consider a vector field, let´s say a bidimensional velocity field of a continuum fluid. We can express in in different notations: we can write \\
 
 $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u \\ v \end{bmatrix} $$
 
 $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u & v \end{bmatrix} $$
 
-where $$ (e_1 e_2) $$ is an ortho-normal (ON) basis for the plane $\mathbb{R}^2$ . 
+where $$ (e_1 e_2) $$ is an ortho-normal (ON) basis for the plane $$\mathbb{R}^2$$ . 
 
 --FIRST VIDEO FLOW MOTION--
 
-Now we consider an arbitrary domain $ \Omega $ --VIDEO 2: arbitrary omegas-- 
+Now we consider an arbitrary domain $$ \Omega $$ --VIDEO 2: arbitrary omegas-- 
 
 Keeping the case of the fluid flow, we already know by conservation law that the total amount of mass must be conserved if nothing is added or removed inside the domain: 
 
-eee
+$$ \frac{\textrm{d}}{\textrm{d}t}[ \int \rho (x,y) dx dy]=0   $$
 
-$$ \frac{d}{dt}[ \int \rho (x,y) dx dy]=0   $$
+SASA PROVA
 
-come va?
+$$ \dv{}{t}[ \int \rho (x,y) dx dy]=0   $$
 
-$ \dv{}{t}[ \int \rho (x,y) dx dy]=0   $
+We can intuitively see that the total amount of mass inside a 2D closed system (no flux through boundaries) varies by the surface integral of the source function $$f(x,y)$$ :
 
-scrivi questo
+$$ \frac{\de }{\de t} \int_{\Omega} $$
+
+
+
+
+
+## The divergence 
+
+
+
+-- video divergence--
+
+## Sink and sources
+
+Also, every point can behave as "source" (+) or "sink" (-): this behavior is described by the source function $$f(x,y)$$ being positive or negative.
+
+Please, Note: the value of the source function must not be confused with the value of the divergence: indeed the divergence consider only the variation of the speed field around a point, but doesn´t give information whether mass is generated or removed! Indeed, assuming the more general case of compressible flow, also the density variation in a point is related with the divergence of the field. Let´s see this more in detail:
+--video compression-decompression--
+
+
 
 ## Embedding videos 
 
