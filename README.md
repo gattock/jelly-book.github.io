@@ -2,7 +2,9 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 
 \newcommand{\dv}[1][2]{  \frac{\textrm{d}#1}{\textrm{d}#1}  }
-\newcommand{\de}{\\textrm{d}}
+\newcommand{\de}{\textrm{d}}
+$$\newcommand{\de}{\textrm{d}} $$
+
 
 https://gattock.github.io/jelly-book.github.io/
 ## Vector fields general info
@@ -28,7 +30,8 @@ $$ \dv{}{t}[ \int \rho (x,y) dx dy]=0   $$
 
 We can intuitively see that the total amount of mass inside a 2D closed system (no flux through boundaries) varies by the surface integral of the source function $$f(x,y)$$ :
 
-$$ \frac{\de }{\de t} \int_{\Omega} $$
+$$ \frac{\de}{\de t} \int_{\Omega} $$
+$$ \frac{\de{}}{\de{} t} \int_{\Omega} $$
 
 
 
