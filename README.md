@@ -31,6 +31,9 @@ $$ \dv{}{t}[ \int \rho (x,y) dx dy]=0   $$
 We can intuitively see that the total amount of mass inside a 2D closed system (no flux through boundaries) varies by the surface integral of the source function $$f(x,y)$$ :
 
 $$ \frac{\de}{\de t} \int_{\Omega} $$
+
+hola 
+
 $$ \frac{\de{}}{\de{} t} \int_{\Omega} $$
 
 
