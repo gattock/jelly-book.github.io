@@ -64,6 +64,10 @@ This idea can be extended for arbitrarily small domain! this leads to..... ---FI
 ## 1D case:
 Let´s consider the "mass inside dl": if dl tends to zero, we can write $$ \de m= \rho \de x $$ .
 For simplicity we suppose that the source function is zero everywhere: $f(x)=0$
+The resulting variation of density is given by the difference of speed between the left boundary (a point) and the right boundary.
+If $$ \de x \to 0$$ this difference will be a derivative: 
+
+$$ 
 
 ## The divergence 
 
