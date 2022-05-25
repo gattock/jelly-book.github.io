@@ -73,7 +73,27 @@ $$ \dv{t} m = \dv{t} \rho \de x = u(x+ \de x) - u(x) \Rightarrow \dv{t} \rho = \
 
 So we see how the time variation of mass in this case is the derivative of the velocity field: in dimension higher than one this concept is generalized by the \gr{divergence}
 
+## 2D case:
+
+-- ATTACH VIDEO FLUX THROUGH SQUARE--
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hjMx8EuyZJ8" title="RandomTitle" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; ecnrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</p>
+
+With the same fashion we compute:
+
+$$  \dv{t} \rho = \Big[  u(x,y) - u(x+ \de x,y) \Big] + \Big[  v(x,y) - v(x,y+ \de y) \Big] $$ --CHECK--
+
+and for $$ \de x , \de y \to 0  $$ it becomes:
+
+$$  \dv{t} \rho = - \Big( \dv{x} u(x,y) + \dv{y} v(x,y) \Big) $$
+
 ## The divergence 
+
+The last equation express the divergence of the velocity vector field $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u & v \end{bmatrix} $$ in 2D.
+
 
 
 
