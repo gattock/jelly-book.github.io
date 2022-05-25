@@ -84,11 +84,11 @@ allowfullscreen></iframe>
 
 With the same fashion we compute:
 
-$$  \dv{t} \rho = \Big[  u(x,y) - u(x+ \de x,y) \Big] + \Big[  v(x,y) - v(x,y+ \de y) \Big] $$ --CHECK--
+$$  \dv{t} \rho = \rho \Big[  u(x,y) - u(x+ \de x,y) \Big] + \rho \Big[  v(x,y) - v(x,y+ \de y) \Big] $$ --CHECK!! $$ \rho$$ !! --
 
 and for $$ \de x , \de y \to 0  $$ it becomes:
 
-$$  \dv{t} \rho = - \Big( \dv{x} u(x,y) + \dv{y} v(x,y) \Big) $$
+$$  \dv{t} \rho = - \rho \Big( \dv{x} u(x,y) + \dv{y} v(x,y) \Big) $$
 
 ## The divergence 
 
@@ -96,7 +96,7 @@ The last equation express the divergence of the velocity vector field $$\mathbf{
 
 The divergence of a vector field is defined as the scalar product with the gradient operator: in 2D is defined in the following way
 
-$$ \textrm{div} \vec u = \nabla \cdot \vec u = \Big( \dv{x} u(x,y) + \dv{y} v(x,y) \Big) $$
+$$ \textrm{div} \, \vec u = \nabla \cdot \vec u =  \dv{x} u(x,y) + \dv{y} v(x,y)  $$
 
 Indeed "unrolling" the divergence operator leads to:
 
@@ -109,11 +109,19 @@ $$ \nabla \cdot \vec u =  \begin{bmatrix} \dv{x} & \dv{y} \end{bmatrix} \cdot \b
 
 ## Sink and sources
 
-Also, every point can behave as "source" (+) or "sink" (-): this behavior is described by the source function $$f(x,y)$$ being positive or negative.
+Every point in the domain can behave as "source" (+) or "sink" (-): this behavior is described by the source function $$f(x,y)$$ being positive or negative.
 
-Please, Note: the value of the source function must not be confused with the value of the divergence: indeed the divergence consider only the variation of the speed field around a point, but doesn´t give information whether mass is generated or removed! Indeed, assuming the more general case of compressible flow, also the density variation in a point is related with the divergence of the field. Let´s see this more in detail:
---video compression-decompression--
+Please, Note: the value of the source function must not be confused with the value of the divergence! Indeed, the divergence consider only the variation of the speed field around a point, but doesn´t give information whether mass is generated(-removed) or compressed(-decompressed)! Assuming the more general case of compressible flow, also the density variation in a point is related with the divergence of the field. Let´s see this more in detail:
+--video compression-decompression-with sources-- in different points different behaviors.
 
+## Continuity equation
+To keep track of the contributions of both the source function and the behavior of neighbor fluid particles, we have just to sum up those, and this leads to the \gr{continuity equation}.
+
+$$  \dv{t} \rho(x,y) = f(x,y) -\nabla \cdot ( \rho \vec u(x,y) ) $$
+
+In case of incompressible fluid, we know that $$ \rho=\textrm{cost.}  $$
+This leads directly to
+$$  \nabla \cdot ( \rho \vec u(x,y) )= f(x,y) $$
 
 
 
