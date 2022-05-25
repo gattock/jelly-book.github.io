@@ -1,7 +1,7 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 
-\newcommand{\dv}[1][2]{  \frac{\textrm{d}#1}{\textrm{d}#1}  }
+$$\newcommand{\dv}[1][2]{  \frac{\textrm{d}#1}{\textrm{d}#1}  }$$
 \newcommand{\de}{\textrm{d}}
 $$\newcommand{\de}{\textrm{d}} $$
 
@@ -26,18 +26,14 @@ $$ \frac{\textrm{d}}{\textrm{d}t}[ \int \rho (x,y) dx dy]=0   $$
 
 SASA PROVA
 
-$$ \dv{}{t}[ \int \rho (x,y) dx dy]=0   $$
+$$ \dv{}{t}[ \int \rho (x,y) \de x \de y]=0   $$
 
 We can intuitively see that the total amount of mass inside a 2D closed system (no flux through boundaries) varies by the surface integral of the source function $$f(x,y)$$ :
 
 $$ \frac{\de}{\de t} \int_{\Omega} $$
 
-hola 
-
-$$ \frac{\de{}}{\de{} t} \int_{\Omega} $$
-
 This means that the temporal variation of the mass inside the domain is given by the average of the source function in the domain:
-$$ \frac{\textrm{d}}{\textrm{d} t} \int_{\Omega} \rho(x,y) \textrm{d}x \textrm{d}y = \int_{\Omega} f(x,y) \textrm{d}x \textrm{d}y $$
+$$ \frac{\de}{\de t} \int_{\Omega} \rho(x,y) \dex \dey = \int_{\Omega} f(x,y) \de x \de y $$
 
 --indicate with underbrace: total mass on rho integral, resulting inlet/outlet on f integral --
 
@@ -45,7 +41,7 @@ $$ \frac{\textrm{d}}{\textrm{d} t} \int_{\Omega} \rho(x,y) \textrm{d}x \textrm{d
 
 If we consider a non-zero flux through boundaries it becomes:
 
-$$ \frac{\textrm{d}}{\textrm{d} t} \int_{\Omega} \rho(x,y) \textrm{d}x \textrm{d}y = \int_{\Omega} f(x,y) \textrm{d}x \textrm{d}y - \oint_{\partial \Omega} \vec u \cdot \hat n \textrm{d}l $$
+$$ \frac{\de}{\de t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) \de x \de y - \oint_{\partial \Omega} \vec u \cdot \hat n \de l $$
 where the last term is the flux integral across the domain boundary
 
 
