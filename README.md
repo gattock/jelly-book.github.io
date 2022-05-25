@@ -3,6 +3,7 @@
 
 $$\newcommand{\dv}[1]{  \frac{\textrm{d}}{\textrm{d}#1}  }$$
 $$\newcommand{\de}{\textrm{d}} $$
+$$\newcommand{\gr}[1]{\textbf{#1}} $$
 
 
 https://gattock.github.io/jelly-book.github.io/
@@ -32,7 +33,7 @@ Now we consider an arbitrary domain $$ \Omega $$ --VIDEO 2: arbitrary omegas--
 
 Keeping the case of the fluid flow, we already know by conservation law that the total amount of mass must be conserved if nothing is added or removed inside the domain: 
 
-$$ \frac{\de}{\de t}[ \int \rho (x,y) dx dy]=0   $$
+$$ \dv{t}[ \int \rho (x,y) dx dy]=0   $$
 
 SASA PROVA
 
@@ -40,10 +41,10 @@ $$ \dv{t}[ \int \rho (x,y) \de x \de y]=0   $$
 
 We can intuitively see that the total amount of mass inside a 2D closed system (no flux through boundaries) varies by the surface integral of the source function $$f(x,y)$$ :
 
-$$ \frac{\de}{\de t} \int_{\Omega} $$
+$$ \dv{t} \int_{\Omega} $$
 
 This means that the temporal variation of the mass inside the domain is given by the average of the source function in the domain:
-$$ \frac{\de}{\de t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) \de x \de y $$
+$$ \dv{t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) \de x \de y $$
 
 --indicate with underbrace: total mass on rho integral, resulting inlet/outlet on f integral --
 
@@ -51,7 +52,7 @@ $$ \frac{\de}{\de t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) 
 
 If we consider a non-zero flux through boundaries it becomes:
 
-$$ \frac{\de}{\de t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) \de x \de y - \oint_{\partial \Omega} \vec u \cdot \hat n \de l $$
+$$ \dv{t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) \de x \de y - \oint_{\partial \Omega} \vec u \cdot \hat n \de l $$
 where the last term is the flux integral across the domain boundary
 
 So, we have seen that the contributes to the average density inside an arbitrary domain are given by:
@@ -62,12 +63,15 @@ So, we have seen that the contributes to the average density inside an arbitrary
 This idea can be extended for arbitrarily small domain! this leads to..... ---FINISH--
 
 ## 1D case:
-Let´s consider the "mass inside dl": if dl tends to zero, we can write $$ \de m= \rho \de x $$ .
-For simplicity we suppose that the source function is zero everywhere: $f(x)=0$
+
+Let´s consider a 1D vector field, in particular the "mass inside dl": if dl tends to zero, we can write $$ \de m= \rho \de x $$ .
+For simplicity we suppose that the source function is zero everywhere: $$f(x)=0$$
 The resulting variation of density is given by the difference of speed between the left boundary (a point) and the right boundary.
 If $$ \de x \to 0$$ this difference will be a derivative: 
 
-$$ 
+$$ \dv{t} m = \dv{t} \rho \de x = u(x+ \de x) - u(x) \Rightarrow \dv{t} \rho = \frac{u(x+ \de x) - u(x)}{\de x}= \dv{x} u(x) $$
+
+So we see how the time variation of mass in this case is the derivative of the velocity field: in dimension higher than one this concept is generalized by the \gr{divergence}
 
 ## The divergence 
 
