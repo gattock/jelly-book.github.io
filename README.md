@@ -36,6 +36,17 @@ hola
 
 $$ \frac{\de{}}{\de{} t} \int_{\Omega} $$
 
+This means that the temporal variation of the mass inside the domain is given by the average of the source function in the domain:
+$$ \frac{\textrm{d}}{\textrm{d} t} \int_{\Omega} \rho(x,y) \textrm{d}x \textrm{d}y = \int_{\Omega} f(x,y) \textrm{d}x \textrm{d}y $$
+
+--indicate with underbrace: total mass on rho integral, resulting inlet/outlet on f integral --
+
+--Video: flux tangential to the boundary or approaching with 0 speed or negative source function on boundary --
+
+If we consider a non-zero flux through boundaries it becomes:
+
+$$ \frac{\textrm{d}}{\textrm{d} t} \int_{\Omega} \rho(x,y) \textrm{d}x \textrm{d}y = \int_{\Omega} f(x,y) \textrm{d}x \textrm{d}y - \oint_{\partial \Omega} \vec u \cdot \hat n \textrm{d}l $$
+where the last term is the flux integral across the domain boundary
 
 
 
