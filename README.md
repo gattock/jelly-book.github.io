@@ -1,7 +1,7 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 
-$$\newcommand{\dv}[1][2]{  \frac{\textrm{d}#1}{\textrm{d}#1}  }$$
+$$\newcommand{\dv}[1,2]{  \frac{\textrm{d}#1}{\textrm{d}#2}  }$$
 \newcommand{\de}{\textrm{d}}
 $$\newcommand{\de}{\textrm{d}} $$
 
