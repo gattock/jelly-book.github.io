@@ -55,12 +55,15 @@ $$ \frac{\de}{\de t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) 
 where the last term is the flux integral across the domain boundary
 
 So, we have seen that the contributes to the average density inside an arbitrary domain are given by:
-\item
+
+* Flux, positive outward (-)
+* Source function (+)
 
 This idea can be extended for arbitrarily small domain! this leads to..... ---FINISH--
 
-
-
+## 1D case:
+Let´s consider the "mass inside dl": if dl tends to zero, we can write $$ \de m= \rho \de x $$ .
+For simplicity we suppose that the source function is zero everywhere: $f(x)=0$
 
 ## The divergence 
 
