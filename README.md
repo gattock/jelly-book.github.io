@@ -1,12 +1,14 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 
-$$\newcommand{\dv}[1,2]{  \frac{\textrm{d}#1}{\textrm{d}#2}  }$$
-\newcommand{\de}{\textrm{d}}
+$$\newcommand{\dv}[1]{  \frac{\textrm{d}}{\textrm{d}#1}  }$$
 $$\newcommand{\de}{\textrm{d}} $$
 
 
 https://gattock.github.io/jelly-book.github.io/
+
+--HOW TO SET WIDTH FULL PAGE? --
+
 ## Vector fields general info
 We consider a vector field, let´s say a bidimensional velocity field of a continuum fluid. We can express in in different notations: we can write \\
 
@@ -30,18 +32,18 @@ Now we consider an arbitrary domain $$ \Omega $$ --VIDEO 2: arbitrary omegas--
 
 Keeping the case of the fluid flow, we already know by conservation law that the total amount of mass must be conserved if nothing is added or removed inside the domain: 
 
-$$ \frac{\textrm{d}}{\textrm{d}t}[ \int \rho (x,y) dx dy]=0   $$
+$$ \frac{\de}{\de t}[ \int \rho (x,y) dx dy]=0   $$
 
 SASA PROVA
 
-$$ \dv{}{t}[ \int \rho (x,y) \de x \de y]=0   $$
+$$ \dv{t}[ \int \rho (x,y) \de x \de y]=0   $$
 
 We can intuitively see that the total amount of mass inside a 2D closed system (no flux through boundaries) varies by the surface integral of the source function $$f(x,y)$$ :
 
 $$ \frac{\de}{\de t} \int_{\Omega} $$
 
 This means that the temporal variation of the mass inside the domain is given by the average of the source function in the domain:
-$$ \frac{\de}{\de t} \int_{\Omega} \rho(x,y) \dex \dey = \int_{\Omega} f(x,y) \de x \de y $$
+$$ \frac{\de}{\de t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) \de x \de y $$
 
 --indicate with underbrace: total mass on rho integral, resulting inlet/outlet on f integral --
 
