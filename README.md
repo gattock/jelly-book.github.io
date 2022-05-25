@@ -54,6 +54,11 @@ If we consider a non-zero flux through boundaries it becomes:
 $$ \frac{\de}{\de t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) \de x \de y - \oint_{\partial \Omega} \vec u \cdot \hat n \de l $$
 where the last term is the flux integral across the domain boundary
 
+So, we have seen that the contributes to the average density inside an arbitrary domain are given by:
+\item
+
+This idea can be extended for arbitrarily small domain! this leads to..... ---FINISH--
+
 
 
 
@@ -77,10 +82,11 @@ Please, Note: the value of the source function must not be confused with the val
 ## MY STUFF
 
 Links to chapter1: 
-https://gattock.github.io/jelly-book.github.io/chapter1/
-https://jelly-book.github.io/2022/05/24/chapter1.html
-https://gattock.github.io/jelly-book.github.io/2022/05/24/chapter1.html
-https://gattock.github.io/jelly-book.github.io/2022/05/24/VectorFields.html
+* https://gattock.github.io/jelly-book.github.io/chapter1/
+    + https://jelly-book.github.io/2022/05/24/chapter1.html 
+    + https://gattock.github.io/jelly-book.github.io/2022/05/24/chapter1.html 
+        - https://gattock.github.io/jelly-book.github.io/2022/05/24/VectorFields.html
+
 
 Esempio 1
 $e^{i \pi} = -1$
