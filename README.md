@@ -94,6 +94,14 @@ $$  \dv{t} \rho = - \Big( \dv{x} u(x,y) + \dv{y} v(x,y) \Big) $$
 
 The last equation express the divergence of the velocity vector field $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u & v \end{bmatrix} $$ in 2D.
 
+The divergence of a vector field is defined as the scalar product with the gradient operator: in 2D is defined in the following way
+
+$$ \textrm{div} \vec u = \nabla \cdot \vec u = \Big( \dv{x} u(x,y) + \dv{y} v(x,y) \Big) $$
+
+Indeed "unrolling" the divergence operator leads to:
+
+$$ \nabla \cdot \vec u =  \begin{bmatrix} \dv{x} & \dv{y} \end{bmatrix} \cdot \begin{bmatrix} u & v \end{bmatrix}= \Big( \dv{x} u(x,y) + \dv{y} v(x,y) \Big)   $$
+
 
 
 
