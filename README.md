@@ -18,6 +18,14 @@ where $$ (e_1 e_2) $$ is an ortho-normal (ON) basis for the plane $$\mathbb{R}^2
 
 --FIRST VIDEO FLOW MOTION--
 
+Embedding videos: 
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hjMx8EuyZJ8" title="RandomTitle" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; ecnrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</p>
+
 Now we consider an arbitrary domain $$ \Omega $$ --VIDEO 2: arbitrary omegas-- 
 
 Keeping the case of the fluid flow, we already know by conservation law that the total amount of mass must be conserved if nothing is added or removed inside the domain: 
@@ -62,13 +70,6 @@ Please, Note: the value of the source function must not be confused with the val
 
 
 
-## Embedding videos 
-
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hjMx8EuyZJ8" title="RandomTitle" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; ecnrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-</p>
 
 
 ## MY STUFF
