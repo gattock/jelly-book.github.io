@@ -2,7 +2,7 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
 
 $$\newcommand{\dv}[1]{  \frac{\textrm{d}}{\textrm{d}#1}  }$$
-$$\newcommand{\de}{\textrm{d}} $$
+$$\newcommand{\de}{\, \textrm{d}} $$
 $$\newcommand{\gr}[1]{\textbf{#1}} $$
 
 
