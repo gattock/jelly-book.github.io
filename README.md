@@ -8,12 +8,15 @@ $$\newcommand{\gr}[1]{\textbf{#1}} $$
 
 https://gattock.github.io/jelly-book.github.io/
 
---HOW TO SET WIDTH FULL PAGE? --
+## Issues to solve
+
+-HOW TO SET WIDTH FULL PAGE? 
+-Embedding videos from Drive
+-User calling re-run of scripts (possible?)
+
 
 ## Vector fields general info
 We consider a vector field, let´s say a bidimensional velocity field of a continuum fluid. We can express in in different notations: we can write \\
-
-$$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u \\ v \end{bmatrix} $$
 
 $$\mathbf{u}= \vec u= u \hat e_1 + v \hat e_2 = \begin{bmatrix} u & v \end{bmatrix} $$
 
@@ -33,18 +36,14 @@ Now we consider an arbitrary domain $$ \Omega $$ --VIDEO 2: arbitrary omegas--
 
 Keeping the case of the fluid flow, we already know by conservation law that the total amount of mass must be conserved if nothing is added or removed inside the domain: 
 
-$$ \dv{t}[ \int \rho (x,y) dx dy]=0   $$
-
-SASA PROVA
-
-$$ \dv{t}[ \int \rho (x,y) \de x \de y]=0   $$
+$$ \dv{t} \int \rho (x,y) \, \de x \, \de y=0   $$
 
 We can intuitively see that the total amount of mass inside a 2D closed system (no flux through boundaries) varies by the surface integral of the source function $$f(x,y)$$ :
 
-$$ \dv{t} \int_{\Omega} $$
+$$ \dv{t} \underbrace{\int_{\Omega} \rho(x,y) \de x \de y}_{total mass} = \underbrace{\int_{\Omega} f(x,y) \de x \de y}_{resulting outward flux} $$
 
 This means that the temporal variation of the mass inside the domain is given by the average of the source function in the domain:
-$$ \dv{t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) \de x \de y $$
+
 
 --indicate with underbrace: total mass on rho integral, resulting inlet/outlet on f integral --
 
