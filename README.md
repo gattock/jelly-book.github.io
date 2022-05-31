@@ -3,7 +3,7 @@
 
 $$\newcommand{\dv}[1]{  \frac{\textrm{d}}{\textrm{d}#1}  }$$
 $$\newcommand{\de}{\, \textrm{d}} $$
-$$\newcommand{\gr}[1]{\textbf{#1}} $$
+$$\newcommand{\gr}[1]{ \textbf{#1} } $$
 
 
 https://gattock.github.io/jelly-book.github.io/
@@ -36,22 +36,21 @@ Now we consider an arbitrary domain $$ \Omega $$ --VIDEO 2: arbitrary omegas--
 
 Keeping the case of the fluid flow, we already know by conservation law that the total amount of mass must be conserved if nothing is added or removed inside the domain: 
 
-$$ \dv{t} \int \rho (x,y) \, \de x \, \de y=0   $$
+$$ \dv{t} \int \rho (x,y) \de x \de y=0   $$
 
 We can intuitively see that the total amount of mass inside a 2D closed system (no flux through boundaries) varies by the surface integral of the source function $$f(x,y)$$ :
 
-$$ \dv{t} \underbrace{\int_{\Omega} \rho(x,y) \de x \de y}_{total mass} = \underbrace{\int_{\Omega} f(x,y) \de x \de y}_{resulting outward flux} $$
+$$ \dv{t} \underbrace{\int_{\Omega} \rho(x,y) \de x \de y}_{total\, mass} = \underbrace{\int_{\Omega} f(x,y) \de x \de y}_{resulting\, outward \,flux} $$
 
 This means that the temporal variation of the mass inside the domain is given by the average of the source function in the domain:
 
 
---indicate with underbrace: total mass on rho integral, resulting inlet/outlet on f integral --
-
---Video: flux tangential to the boundary or approaching with 0 speed or negative source function on boundary --
+--ATTACH Video: flux tangential to the boundary or approaching with 0 speed or negative source function on boundary --
 
 If we consider a non-zero flux through boundaries it becomes:
 
 $$ \dv{t} \int_{\Omega} \rho(x,y) \de x \de y = \int_{\Omega} f(x,y) \de x \de y - \oint_{\partial \Omega} \vec u \cdot \hat n \de l $$
+
 where the last term is the flux integral across the domain boundary
 
 So, we have seen that the contributes to the average density inside an arbitrary domain are given by:
@@ -120,7 +119,9 @@ $$  \dv{t} \rho(x,y) = f(x,y) -\nabla \cdot ( \rho \vec u(x,y) ) $$
 
 In case of incompressible fluid, we know that $$ \rho=\textrm{cost.}  $$
 This leads directly to
+
 $$  \nabla \cdot ( \rho \vec u(x,y) )= f(x,y) $$
+
 that intuitively means that the divergence of the velocity field is given only by how much fluid is "generated-absorbed" in that point.
 
 --VIDEO WITH CHEMICALS REACTIONS AND COMPOUNDS DENSITIES VARIATIONS--
