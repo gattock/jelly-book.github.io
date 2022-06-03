@@ -121,7 +121,7 @@ $$  \int_\Omega \frac{\rho}{\epsilon_0} \de V = \int E \de A  $$
 where the RHS term represent the flux of the electric field through the boundary of domain $$\Omega$$ and the LHS represent the integral of the charge density in the volume, i.e. the total amount of charge contained into the domain $$\Omega$$.
 This equation is obtained substituting the 1st Maxwell law into the LHS integral, by substituting:
 
-$$ \Nabla \cdot E = \frac{\rho}{\epsilon_0} $$
+$$ \nabla \cdot E = \frac{\rho}{\epsilon_0} $$
 
 ## Sink and sources
 
