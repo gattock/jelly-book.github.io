@@ -105,9 +105,23 @@ Indeed "unrolling" the divergence operator leads to:
 $$ \nabla \cdot \vec u =  \begin{bmatrix} \dv{x} & \dv{y} \end{bmatrix} \cdot \begin{bmatrix} u & v \end{bmatrix}= \Big( \dv{x} u(x,y) + \dv{y} v(x,y) \Big)   $$
 
 
-
-
 -- video divergence--
+
+## The divergence theorem from Gauss´ theorem
+
+It is possible to obtain the divergence theorem as a generalization of Gauss´ one in case of vector fields (instead of scalar field)
+Gauss´ theorem relates a volume integral to a surface integral:
+
+$$  \int_\Omega \frac{\partial Q}{\partial x_i} \de V = \int Q \de A  $$
+
+A physical interpretation can be done by putting Q as electric field E: indeed this will lead to the well known expression
+
+$$  \int_\Omega \frac{\rho}{\epsilon_0} \de V = \int E \de A  $$
+
+where the RHS term represent the flux of the electric field through the boundary of domain $$\Omega$$ and the LHS represent the integral of the charge density in the volume, i.e. the total amount of charge contained into the domain $$\Omega$$.
+This equation is obtained substituting the 1st Maxwell law into the LHS integral, by substituting:
+
+$$ \Nabla \cdot E = \frac{\rho}{\epsilon_0} $$
 
 ## Sink and sources
 
