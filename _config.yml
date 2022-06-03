@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: A manim-book for learning physics
 description: let´s start
+
+site_width: wide
