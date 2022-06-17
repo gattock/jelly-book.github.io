@@ -34,6 +34,12 @@ allow="accelerometer; autoplay; clipboard-write; ecnrypted-media; gyroscope; pic
 allowfullscreen></iframe>
 </p>
 
+
+
+
+https://user-images.githubusercontent.com/58366614/174284390-dcf0235c-e2b6-44be-af77-f3daf94a649d.mp4
+
+
 Now we consider an arbitrary domain $$ \Omega $$ 
 
 --VIDEO 2: arbitrary omegas-- 
